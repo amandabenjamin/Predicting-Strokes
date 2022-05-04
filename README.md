@@ -18,6 +18,21 @@ Data pre-processing included:
 4. Addressing inconsitant categorical values. 
 5. Ensuring numerical data made sense (i.e. Age featured in the study was greater than 0 and less than 100). 
 
-We found a moderate correlation between 'bmi' and 'age' features, and week correlation between the remaining variables. 'Average glucose levels' and 'bmi' displayed non-gaussian distrobutions asserting a need to scale the data prior to fitting the model. 
+We found a moderate correlation between 'bmi' and 'age' features, and week correlation between the remaining variables (figure 1). 'Average glucose levels' (figure 2 and figure 3) and 'bmi' (figure 4 and figure 5) displayed non-gaussian distrobutions asserting a need to scale the data prior to fitting the model. 
+
+Figure 1: Correlation heat map for 'numerical' features
+![image](https://user-images.githubusercontent.com/99859350/166622150-fc83c7cf-251e-4953-b8cd-622c56738254.png)
+
+Figure 2: Histogram plot for 'Average glucose levels' (clinical feature included in dataset) 
+![image](https://user-images.githubusercontent.com/99859350/166622353-a864f47b-5981-417d-88e4-d9c5d0d9cf1b.png)
+
+Figure 3: Boxplot for 'Average glucose levels' (clinical feature included in dataset) 
+![image](https://user-images.githubusercontent.com/99859350/166622370-72f42932-9128-4eaf-a868-a2a8ca709146.png)
+
+Figure 4: Histogram plot for patient 'BMI' (clinical feature included in dataset) 
+![image](https://user-images.githubusercontent.com/99859350/166622393-85dd9bee-b305-4c90-92f2-5a33dac63626.png)
+
+Figure 5: Boxplot for patient 'BMI' (clinical feature included in dataset) 
+![image](https://user-images.githubusercontent.com/99859350/166622409-625ab1df-ba3a-4d99-a8f7-b1fd8e815da7.png)
 
 1: (https://www.cdc.gov/stroke/facts.htm)
