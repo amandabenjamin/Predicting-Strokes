@@ -35,4 +35,9 @@ Figure 4: Histogram plot for patient 'BMI' (clinical feature included in dataset
 Figure 5: Boxplot for patient 'BMI' (clinical feature included in dataset) 
 ![image](https://user-images.githubusercontent.com/99859350/166622409-625ab1df-ba3a-4d99-a8f7-b1fd8e815da7.png)
 
+Final model: 
+I assesed the preformance of three models before deciding on a final 'production' model. The three models tested were: a decision tree, knn tree, and logistic (log.) regression model. Each model included PCA where 95% of the variation in the dataset was captured to help reduce unnecessary run time for the clinitian intended to use this model. Basis models were first utalised to assess performance on both the training dataset and testing dataset (data unseen to the model during its development) as well as the rate of false positive and false negative prediction. 
+
+The log. regression model (with no tuning) was selected as 'production' model as it provided the highest accuracy on the testing dataset in combination with the least amount of fine tuning required by the clinitian - something benefitial for a user who may not have the highest python knowledge. 
+
 1: (https://www.cdc.gov/stroke/facts.htm)
